@@ -37,7 +37,7 @@ def mostrar_filmes(filmes):
      for filme in filmes:
         print(f"""
               Nome do Filme: {filme["nome_filme"]}
-              Classificaçãõ do Filme: {filme["classificacao"]}
+              Classificação do Filme: {filme["classificacao"]}
               Descrição do Filme: {filme["descricao"]}
               Categoria do Filme: {filme["categoria"]}
               """)
