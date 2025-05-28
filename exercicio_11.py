@@ -47,6 +47,40 @@ def mostrar_veiculos(receber_carro):
               """)
     else:
         print("Não há veículos cadastrados.")
+
+
+def iniciar_sistema():
+    db_veiculos = carregar_dados()
+
+    while True:
+
+        print("")
+        print("="*80)
+        print("Opção 1 - Mostrar Lista de Veículos")
+        print("Opção 2 - Cadastrar Veículo")
+        print("Opção 3 - Sair do Sistema.")
+        print("="*80)
+
+        opcao = input("Escolha uma das opções: ")
+        if opcao == "1":
+            mostrar_veiculos(db_veiculos)
+        elif opcao == "2":
+            cadastrar_veiculo(obter_dados())
+        elif opcao == "3":
+            print("Sistema finalizado!")
+            break
+        else:
+            print("Opção inválida, escolha uma das opções do menu.")
+
+
+
+iniciar_sistema()
+
+
+
+    
+    
+
              
 
 
