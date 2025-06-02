@@ -1,0 +1,11 @@
+[
+    {
+        "id_roupa": 1,
+        "nome_roupa": "calça",
+        "descricao_roupa": "longa",
+        "tamanho": "p",
+        "cor": "preta",
+        "valor": 2000.0,
+        "quantidade": 1
+    }
+]
